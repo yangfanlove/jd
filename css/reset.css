@@ -1,0 +1,39 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+input{
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+a{
+  text-decoration: none;
+  color: #333;
+}
+img{
+  display: block;
+  border: none;
+}
+body{
+  color: #333;
+  font-size: 12px;
+  font-family: "Microsoft YaHei",sans-serif;
+}
+li{
+  list-style: none;
+}
+.clear::after,
+.clear::before{
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  overflow: hidden;
+}

@@ -1,0 +1,406 @@
+@import url("reset.css");
+
+*{
+   background: #f0f0f0;   
+}
+.nav{
+    width: 100%;
+    max-width:640px;
+    min-width:300px;
+    margin: 0 auto;
+    line-height: 44px;
+    background:-webkit-linear-gradient(top,white,#f0f0f0);
+    .header{
+        width: 100%;
+        text-align: center;
+        height: 44px;
+        line-height: 44px;
+        font-size: 16px;
+        background:-webkit-linear-gradient(top,white,#f0f0f0);
+        position: relative;
+    }
+        .yi{
+                    position: absolute;
+                    left: 10px;
+                    top:13px;
+                    width: 12px;
+                    height: 20px;
+                    background: url(../img/jd-sprites.png) no-repeat -24px 0;
+                    background-size: 200px 200px;
+                }
+                .er{
+                    position: absolute;
+                    right: 10px;
+                    top: 13px;
+                    width: 18px;
+                    height: 18px;
+                    background: url(../img/jd-sprites.png) no-repeat -61px -1px;
+                    background-size: 200px 200px;
+                }
+        }
+    
+
+//说明
+.san{
+    max-width:640px;
+    min-width:300px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 10px 0;
+    text-align: center;
+    span{
+        background: white;
+        font-size: 13px;
+        color: #686868;
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+    }
+    em{
+        position: absolute;
+        left: -25px;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        display: block;
+        background: url(../img/200.png) no-repeat 0 -150px;
+        background-size: 50px 200px;
+        cursor: pointer;
+    }
+}
+
+//购物车物品
+.hu{
+    max-width:640px;
+    min-width:300px;
+    margin: 0 auto;
+    width: 96%;
+    height: auto;
+    padding: 5px;
+    background: white;
+    margin-top: 10px;
+    .ha{
+        float: left;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        &:active{
+            background: url(../img/200.png) -25px 0;
+            background-size: 50px 200px;
+        }
+    }
+    .hb{
+        float: left;
+        background: white;
+        img{
+            float: left;
+            margin-top: 2px;
+            margin-left: 10px;
+            width: 16px;
+            height: 14px;
+            background: white;
+            display: block;
+            vertical-align: middle;
+        }
+        a{
+            margin-left: 10px;
+            float: left;
+            display:inline-block;
+            background: white;
+            font-size: 14px;
+            color: #252525;
+            position: relative;
+            span{
+                display: block;
+                background: transparent;
+                position: absolute;
+                left: 125px;
+                top:2px;
+                img{
+                    width: 8px;
+                    height: 14px;
+                }
+            }
+        }
+        p{
+            margin-top: 40px;
+            background: white;
+        }
+        
+    }
+    .hc{
+        float: left;
+        margin-top: 25px;
+        width: 100%;
+        background: white;
+        span{
+            float: left;
+            display: block;
+            background: red;
+            color: white;
+            width: 30px;
+            height: 16px;
+            text-align: center;
+            position: relative;
+        }
+        font{
+            background: white;
+            font-size: 12px;
+            margin-left: 5px;
+              i{
+                  float: right;
+                  background: white;
+                  img{
+                      margin-left: 5px;
+                      margin-top: 3px;
+                      float: right;
+                      width: 10px;
+                      height: 10px;
+                      display: block;
+                      background: white;
+                      cursor: pointer;
+                  }
+              }
+        }
+    }
+}
+
+.bin{
+    width: 96%;
+    max-width:640px;
+    min-width:300px;
+    margin: 0 auto;
+    background: white;
+    padding: 5px;
+    .ba{
+        float: left;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        margin-top: 40px;
+        margin-right: 5px;
+        &:active{
+            background: url(../img/200.png) -25px 0;
+            background-size: 50px 200px;
+        }
+    }
+    .bb{
+        background: white;
+        float: left;
+        padding-bottom: 30px;
+            img{
+                float: left;
+                margin-top: 5px;
+                width: 90px;
+                height: 100px;
+                display: block;
+                border: 1px solid #f0f0f0;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    }
+    .bc{
+        background-color: red;
+        background-color: white;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 20px 5px;
+        .bca{   
+                display: block
+                float: left;
+                background-color: white;
+                height: 30px;
+                max-height: 30px;
+            }
+        .bcb{
+            display: block;
+            background-color: white;
+            color: #ccc;
+            margin-top: 5px;
+        }
+        .bcc{
+            display: block;
+            background-color: white;
+            color: red;
+            font-size: 14px;
+            margin-top: 20px;
+            p{
+                width: 60px;
+                height: 22px;
+                float: right;
+                cursor: pointer;
+                a{
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    border: 1px solid #ccc;
+                    background: white;
+                    overflow: hidden;
+                    text-align: center;
+                }
+            }
+        }
+        .bcd{
+            cursor: pointer;
+            clear: both;
+            position: relative;
+            right: 0;
+            margin-right: 0;
+            display: block;
+            float: right;
+            background: white;
+            margin-top: 20px;
+            i{
+                color: #f0f0f0;
+            }
+        }
+    }
+}
+
+
+//结算
+.ff{
+    width: 100%;
+    border-top: 1px solid #ccc;
+    max-width:640px;
+    min-width:300px;
+    margin: 0 auto;
+    background: white;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 200;
+    .fa{
+        float: left;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: 1px solid #ccc;
+        background: white;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-top: 15px;
+        &:active{
+            background: url(../img/200.png) -25px 0;
+            background-size: 50px 200px;
+        }
+    }
+    .faa{
+            float: left;
+            display: inline-block;
+            margin-left: 10px;
+            background: white;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+    .fb{
+        float: left;
+        margin-left: 10px;
+        background: white;
+        margin-top: 9px;
+        span{
+            background: white;
+        }
+        p{
+            background: white;
+        }
+    }
+    .fc{
+        float: right;
+        max-width: 98px;
+        line-height: 50px;
+        text-align: center;
+        background: #f23030;
+        color: #fff;
+        font-size: 16px;
+        padding: 0 5px;
+        cursor: pointer;
+    }
+}
+
+
+.gg{
+    max-width:640px;
+    min-width:300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    span{
+        display: block;
+        float: left;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 0 10px;
+        img{
+            float: left;
+            width: 13px;
+            height: 13px;
+            display: block;
+            margin-right: 10px;
+        }
+    }
+}
+
+
+.ll{
+    max-width:640px;
+    min-width:300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    .la{
+        width: 50%;
+        float: left;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        span{
+            width: 100%;
+            font-size: 12px;
+            background: white;
+            display: block;
+        }
+        p{
+            width: 100%;
+            margin-top: 20px;
+            font-size: 14px;
+            color: red;
+            background: white;
+        }
+    }
+    .lb{
+        width: 50%;
+        float: left;
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        span{
+            width: 100;
+            font-size: 12px;
+            background: white;
+            display: block;
+        }
+        p{
+            width: 100%;
+            margin-top: 20px;
+            font-size: 14px;
+            color: red;
+            background: white;
+        }
+    }
+}

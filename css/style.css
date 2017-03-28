@@ -1,0 +1,319 @@
+@import url("reset.css");
+.nav {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  background: white;
+}
+.nav .header {
+  max-width: 640px;
+  min-width: 300px;
+  width: 100%;
+  height: 40px;
+  background: #000;
+  opacity: 0.7;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 75px;
+}
+.nav .header a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 56px;
+  height: 24px;
+  background: url(../img/jd-sprites.png) no-repeat 0 -106px;
+  background-size: 200px 200px;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.nav .header span {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.nav .yi {
+  color: #CCCCCC;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  height: 30px;
+  margin-top: 5px;
+  overflow: hidden;
+  width: 100%;
+  padding-left: 23px;
+}
+.nav em {
+  width: 21px;
+  height: 20px;
+  display: inline-block;
+  background: url(../img/jd-sprites.png) no-repeat -58px -109px;
+  background-size: 200px 200px;
+  position: absolute;
+  top: 10px;
+  left: 77px;
+}
+.main {
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.main a img {
+  width: 100%;
+  display: block;
+  z-index: 9999;
+}
+.tu {
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+  background-color: #ccc;
+  opacity: 0.8;
+  padding: 10px 0;
+  color: black;
+}
+.tu a {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+  text-align: center;
+}
+.tu a img {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+.tu .hu {
+  width: 96.5%;
+  float: left;
+  background: white;
+  border-radius: 5px;
+  margin: 0 10px;
+  height: 30px;
+  font-size: 12px;
+  position: relative;
+}
+.tu .hu img {
+  width: 73px;
+  height: 16px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  display: block;
+}
+.tu .hu {
+  margin-top: 20px;
+}
+.main1 {
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.main1 img {
+  float: left;
+  width: 60px;
+  height: 30px;
+  display: block;
+}
+.main1 strong {
+  display: inline-block;
+  float: left;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+.main1 span {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 3px;
+  border: 1px solid #ccc;
+}
+.main1 a {
+  float: right;
+  display: block;
+  margin-top: 7px;
+  font-size: 10px;
+  color: red;
+  margin-right: 10px;
+}
+.main1 a i {
+  float: right;
+  width: 11px;
+  height: 5px;
+  display: inline-block;
+}
+.main1 a i img {
+  width: 100%;
+  width: 11px;
+  height: 11px;
+  display: block;
+  margin-top: 5px;
+  margin-right: 3px;
+  margin-left: 5px;
+}
+.oo {
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.oa {
+  padding: 0 20px;
+  width: 33.333%;
+  float: left;
+}
+.oa img {
+  width: 100%;
+  height: 110px;
+  display: block;
+}
+.ob {
+  padding: 0 20px;
+  width: 33.333%;
+  float: left;
+}
+.ob img {
+  width: 100%;
+  height: 110px;
+  display: block;
+}
+.oc {
+  padding: 0 20px;
+  width: 33.333%;
+  float: left;
+}
+.oc img {
+  width: 100%;
+  height: 110px;
+  display: block;
+}
+.pl {
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.pl .pa {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+.pl .pb {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+.pl .pc {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+}
+.pl .pd {
+  font-size: 18px;
+  color: red;
+}
+.pl .pe {
+  font-size: 14px;
+  color: #ccc;
+  text-decoration: line-through;
+}
+.hg {
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.hg .ha {
+  width: 33.333%;
+  float: left;
+  padding: 20px 0;
+}
+.hg .ha img {
+  width: 100%;
+  height: 146px;
+  display: block;
+}
+.hg .hb {
+  width: 33.333%;
+  float: left;
+  padding: 20px 0;
+}
+.hg .hb img {
+  width: 100%;
+  height: 146px;
+  display: block;
+}
+.hg .hc {
+  width: 33.333%;
+  float: left;
+  padding: 20px 0;
+}
+.hg .hc img {
+  width: 100%;
+  height: 146px;
+  display: block;
+}
+.kk {
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+.kk .ka {
+  float: left;
+  width: 50%;
+}
+.kk .ka strong {
+  font-size: 18px;
+}
+.kk .ka p {
+  font-size: 14px;
+}
+.kk .ka img {
+  width: 50%;
+  height: 86px;
+  display: block;
+  float: right;
+}
+.kk .kb {
+  float: right;
+  width: 50%;
+}
+.kk .kb strong {
+  font-size: 18px;
+}
+.kk .kb p {
+  font-size: 14px;
+}
+.kk .kb img {
+  width: 50%;
+  height: 86px;
+  display: block;
+  float: right;
+}
+.nl {
+  clear: both;
+  width: 100%;
+  max-width: 640px;
+  min-width: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+.nl img {
+  width: 100%;
+  display: block;
+}
+.nl .na {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.nl .na img {
+  width: 66px;
+  height: 28px;
+  display: block;
+}
